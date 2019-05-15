@@ -221,7 +221,7 @@ while flag == True:
     # main loop ends
     ans = input('\nGive it another hang? (Y/N): ')
     if ans.lower() == 'n':
-        clear_output()
+        clear_output(); cls()
         print('\n\n\tEvery day above ground is a good day!\n\n\n\n\n')
         flag = False
     # <<<<<<<<<<<<<<<<<<<<<<<<possible easter egg here
